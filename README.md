@@ -1,5 +1,5 @@
-# Knowledge Graph Drievn Reinforcement Learning Based Recommender System
-This approach mainly have 5 modules, preprocessing and kg creation, generating kg embedding, train reinforcement learning agent, recommending items for customers and path generation and evaluation.
+# Knowledge Graph Driven Reinforcement Learning Based Recommender System
+This approach mainly has 5 modules, preprocessing and kg creation, generating kg embedding, training reinforcement learning agent, recommending items for customers, and path generation and evaluation.
 
 ## How to run the code 
 
@@ -9,7 +9,7 @@ Run the below three .ipynb files in the same order as they are listed.
 
 run the processing.ipynb file
 
-2. KG creation, embeddings generation, model building:
+2. KG creation, embeddings generation, and model building:
 
 run the KG_RL_Rec_Sys.ipynb file
 
