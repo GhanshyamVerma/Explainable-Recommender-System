@@ -1,0 +1,323 @@
+<http://saffron.insight-centre.org/rdf/term/stock+market> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/interest+rate> .
+<http://saffron.insight-centre.org/rdf/term/stock+market> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/federal+income+tax> .
+<http://saffron.insight-centre.org/rdf/term/stock+market> <http://www.w3.org/2000/01/rdf-schema#label> "stock market" .
+<http://saffron.insight-centre.org/rdf/term/stock+market> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/taxable+account> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/tax+return> .
+<http://saffron.insight-centre.org/rdf/term/taxable+account> <http://www.w3.org/2000/01/rdf-schema#label> "taxable account" .
+<http://saffron.insight-centre.org/rdf/term/taxable+account> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/cash+flow> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/cash+flow> <http://www.w3.org/2000/01/rdf-schema#label> "cash flow" .
+<http://saffron.insight-centre.org/rdf/term/cash+flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/health+care> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/stock+market> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/care+cost> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/minimum+distribution> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/retirement+income+plan> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/federal+estate> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://www.w3.org/2000/01/rdf-schema#label> "monthly benefit" .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/estate+planning> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/credit+card> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/tax+bill> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/tax+bracket> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/insurance+company> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/tax+rate> .
+<http://saffron.insight-centre.org/rdf/term/monthly+benefit> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/retirement+account> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/lifetime+income+annuity> .
+<http://saffron.insight-centre.org/rdf/term/retirement+account> <http://www.w3.org/2000/01/rdf-schema#label> "retirement account" .
+<http://saffron.insight-centre.org/rdf/term/retirement+account> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/ira+contribution> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/credit+card> .
+<http://saffron.insight-centre.org/rdf/term/ira+contribution> <http://www.w3.org/2000/01/rdf-schema#label> "ira contribution" .
+<http://saffron.insight-centre.org/rdf/term/ira+contribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/roth+ira+conversion> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/medicare+advantage+plan> .
+<http://saffron.insight-centre.org/rdf/term/roth+ira+conversion> <http://www.w3.org/2000/01/rdf-schema#label> "roth ira conversion" .
+<http://saffron.insight-centre.org/rdf/term/roth+ira+conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/growth+potential> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/growth+potential> <http://www.w3.org/2000/01/rdf-schema#label> "growth potential" .
+<http://saffron.insight-centre.org/rdf/term/growth+potential> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/full+retirement> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/much+house> .
+<http://saffron.insight-centre.org/rdf/term/full+retirement> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/many+person> .
+<http://saffron.insight-centre.org/rdf/term/full+retirement> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/preretirement+income> .
+<http://saffron.insight-centre.org/rdf/term/full+retirement> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/early+withdrawal+penalty> .
+<http://saffron.insight-centre.org/rdf/term/full+retirement> <http://www.w3.org/2000/01/rdf-schema#label> "full retirement" .
+<http://saffron.insight-centre.org/rdf/term/full+retirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/security+benefit> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/security+benefit> <http://www.w3.org/2000/01/rdf-schema#label> "security benefit" .
+<http://saffron.insight-centre.org/rdf/term/security+benefit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/standard+deduction> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/required+minimum+distribution> .
+<http://saffron.insight-centre.org/rdf/term/standard+deduction> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/applicable+exclusion+amount> .
+<http://saffron.insight-centre.org/rdf/term/standard+deduction> <http://www.w3.org/2000/01/rdf-schema#label> "standard deduction" .
+<http://saffron.insight-centre.org/rdf/term/standard+deduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/lifestyle+in+retirement> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/federal+income+tax> .
+<http://saffron.insight-centre.org/rdf/term/lifestyle+in+retirement> <http://www.w3.org/2000/01/rdf-schema#label> "lifestyle in retirement" .
+<http://saffron.insight-centre.org/rdf/term/lifestyle+in+retirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/tax+contribution> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/insurance+company> .
+<http://saffron.insight-centre.org/rdf/term/tax+contribution> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/income+annuity> .
+<http://saffron.insight-centre.org/rdf/term/tax+contribution> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/retirement+plan> .
+<http://saffron.insight-centre.org/rdf/term/tax+contribution> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/applicable+exclusion+amount> .
+<http://saffron.insight-centre.org/rdf/term/tax+contribution> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/federal+income+tax> .
+<http://saffron.insight-centre.org/rdf/term/tax+contribution> <http://www.w3.org/2000/01/rdf-schema#label> "tax contribution" .
+<http://saffron.insight-centre.org/rdf/term/tax+contribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/bond+etfs> <http://www.w3.org/2000/01/rdf-schema#label> "bond etfs" .
+<http://saffron.insight-centre.org/rdf/term/bond+etfs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/minimum+distribution> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/tax+contribution> .
+<http://saffron.insight-centre.org/rdf/term/minimum+distribution> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/monthly+benefit> .
+<http://saffron.insight-centre.org/rdf/term/minimum+distribution> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/ira+conversion> .
+<http://saffron.insight-centre.org/rdf/term/minimum+distribution> <http://www.w3.org/2000/01/rdf-schema#label> "minimum distribution" .
+<http://saffron.insight-centre.org/rdf/term/minimum+distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/retirement+income> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/income+annuity> .
+<http://saffron.insight-centre.org/rdf/term/retirement+income> <http://www.w3.org/2000/01/rdf-schema#label> "retirement income" .
+<http://saffron.insight-centre.org/rdf/term/retirement+income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/term+capital+gain> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/term+capital+gain> <http://www.w3.org/2000/01/rdf-schema#label> "term capital gain" .
+<http://saffron.insight-centre.org/rdf/term/term+capital+gain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/savings+account> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/savings+account> <http://www.w3.org/2000/01/rdf-schema#label> "savings account" .
+<http://saffron.insight-centre.org/rdf/term/savings+account> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/estate+plan> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/retirement+plan> .
+<http://saffron.insight-centre.org/rdf/term/estate+plan> <http://www.w3.org/2000/01/rdf-schema#label> "estate plan" .
+<http://saffron.insight-centre.org/rdf/term/estate+plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/federal+estate> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/care+cost> .
+<http://saffron.insight-centre.org/rdf/term/federal+estate> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/ira+owner> .
+<http://saffron.insight-centre.org/rdf/term/federal+estate> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/monthly+benefit> .
+<http://saffron.insight-centre.org/rdf/term/federal+estate> <http://www.w3.org/2000/01/rdf-schema#label> "federal estate" .
+<http://saffron.insight-centre.org/rdf/term/federal+estate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/charitable+contribution> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/charitable+contribution> <http://www.w3.org/2000/01/rdf-schema#label> "charitable contribution" .
+<http://saffron.insight-centre.org/rdf/term/charitable+contribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/tax+bill> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/monthly+benefit> .
+<http://saffron.insight-centre.org/rdf/term/tax+bill> <http://www.w3.org/2000/01/rdf-schema#label> "tax bill" .
+<http://saffron.insight-centre.org/rdf/term/tax+bill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/tax+treatment> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/bond+ladder> .
+<http://saffron.insight-centre.org/rdf/term/tax+treatment> <http://www.w3.org/2000/01/rdf-schema#label> "tax treatment" .
+<http://saffron.insight-centre.org/rdf/term/tax+treatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/monthly+income> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/monthly+income> <http://www.w3.org/2000/01/rdf-schema#label> "monthly income" .
+<http://saffron.insight-centre.org/rdf/term/monthly+income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/applicable+exclusion> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/applicable+exclusion> <http://www.w3.org/2000/01/rdf-schema#label> "applicable exclusion" .
+<http://saffron.insight-centre.org/rdf/term/applicable+exclusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/care+cost> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/bond+ladder> .
+<http://saffron.insight-centre.org/rdf/term/care+cost> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/retirement+saving> .
+<http://saffron.insight-centre.org/rdf/term/care+cost> <http://www.w3.org/2000/01/rdf-schema#label> "care cost" .
+<http://saffron.insight-centre.org/rdf/term/care+cost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/insurance+company> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/monthly+benefit> .
+<http://saffron.insight-centre.org/rdf/term/insurance+company> <http://www.w3.org/2000/01/rdf-schema#label> "insurance company" .
+<http://saffron.insight-centre.org/rdf/term/insurance+company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/estate+planning> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/retirement+income+plan> .
+<http://saffron.insight-centre.org/rdf/term/estate+planning> <http://www.w3.org/2000/01/rdf-schema#label> "estate planning" .
+<http://saffron.insight-centre.org/rdf/term/estate+planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/income+plan> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/income+plan> <http://www.w3.org/2000/01/rdf-schema#label> "income plan" .
+<http://saffron.insight-centre.org/rdf/term/income+plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/federal+income+taxis> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/savings+account> .
+<http://saffron.insight-centre.org/rdf/term/federal+income+taxis> <http://www.w3.org/2000/01/rdf-schema#label> "federal income taxis" .
+<http://saffron.insight-centre.org/rdf/term/federal+income+taxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/tax+money> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/interest+rate> .
+<http://saffron.insight-centre.org/rdf/term/tax+money> <http://www.w3.org/2000/01/rdf-schema#label> "tax money" .
+<http://saffron.insight-centre.org/rdf/term/tax+money> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/tax+bracket> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/guaranteed+income> .
+<http://saffron.insight-centre.org/rdf/term/tax+bracket> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/monthly+benefit> .
+<http://saffron.insight-centre.org/rdf/term/tax+bracket> <http://www.w3.org/2000/01/rdf-schema#label> "tax bracket" .
+<http://saffron.insight-centre.org/rdf/term/tax+bracket> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/term+care> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/term+care> <http://www.w3.org/2000/01/rdf-schema#label> "term care" .
+<http://saffron.insight-centre.org/rdf/term/term+care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/many+person> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/monthly+benefit> .
+<http://saffron.insight-centre.org/rdf/term/many+person> <http://www.w3.org/2000/01/rdf-schema#label> "many person" .
+<http://saffron.insight-centre.org/rdf/term/many+person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/income+annuity> <http://www.w3.org/2000/01/rdf-schema#label> "income annuity" .
+<http://saffron.insight-centre.org/rdf/term/income+annuity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/asset+mix> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/tax+return> .
+<http://saffron.insight-centre.org/rdf/term/asset+mix> <http://www.w3.org/2000/01/rdf-schema#label> "asset mix" .
+<http://saffron.insight-centre.org/rdf/term/asset+mix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/income+tax> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/bond+ladder> .
+<http://saffron.insight-centre.org/rdf/term/income+tax> <http://www.w3.org/2000/01/rdf-schema#label> "income tax" .
+<http://saffron.insight-centre.org/rdf/term/income+tax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/mutual+fund> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/mutual+fund> <http://www.w3.org/2000/01/rdf-schema#label> "mutual fund" .
+<http://saffron.insight-centre.org/rdf/term/mutual+fund> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/wealth+transfer> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/interest+rate> .
+<http://saffron.insight-centre.org/rdf/term/wealth+transfer> <http://www.w3.org/2000/01/rdf-schema#label> "wealth transfer" .
+<http://saffron.insight-centre.org/rdf/term/wealth+transfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/bond+ladder> <http://www.w3.org/2000/01/rdf-schema#label> "bond ladder" .
+<http://saffron.insight-centre.org/rdf/term/bond+ladder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/health+care> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/stock+market> .
+<http://saffron.insight-centre.org/rdf/term/health+care> <http://www.w3.org/2000/01/rdf-schema#label> "health care" .
+<http://saffron.insight-centre.org/rdf/term/health+care> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/brokerage+firm> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/bond+ladder> .
+<http://saffron.insight-centre.org/rdf/term/brokerage+firm> <http://www.w3.org/2000/01/rdf-schema#label> "brokerage firm" .
+<http://saffron.insight-centre.org/rdf/term/brokerage+firm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/applicable+exclusion+amount> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/health+care+cost> .
+<http://saffron.insight-centre.org/rdf/term/applicable+exclusion+amount> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/lifestyle+in+retirement> .
+<http://saffron.insight-centre.org/rdf/term/applicable+exclusion+amount> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/tax+contribution> .
+<http://saffron.insight-centre.org/rdf/term/applicable+exclusion+amount> <http://www.w3.org/2000/01/rdf-schema#label> "applicable exclusion amount" .
+<http://saffron.insight-centre.org/rdf/term/applicable+exclusion+amount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/retirement+age> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/income+annuity> .
+<http://saffron.insight-centre.org/rdf/term/retirement+age> <http://www.w3.org/2000/01/rdf-schema#label> "retirement age" .
+<http://saffron.insight-centre.org/rdf/term/retirement+age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/preretirement+income> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/federal+income+tax> .
+<http://saffron.insight-centre.org/rdf/term/preretirement+income> <http://www.w3.org/2000/01/rdf-schema#label> "preretirement income" .
+<http://saffron.insight-centre.org/rdf/term/preretirement+income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/retirement+saving> <http://www.w3.org/2000/01/rdf-schema#label> "retirement saving" .
+<http://saffron.insight-centre.org/rdf/term/retirement+saving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/potential+tax> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/lifetime+income+annuity> .
+<http://saffron.insight-centre.org/rdf/term/potential+tax> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/potential+tax> <http://www.w3.org/2000/01/rdf-schema#label> "potential tax" .
+<http://saffron.insight-centre.org/rdf/term/potential+tax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/income+tax+rate> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/guaranteed+income> .
+<http://saffron.insight-centre.org/rdf/term/income+tax+rate> <http://www.w3.org/2000/01/rdf-schema#label> "income tax rate" .
+<http://saffron.insight-centre.org/rdf/term/income+tax+rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/expenses+in+retirement> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/expenses+in+retirement> <http://www.w3.org/2000/01/rdf-schema#label> "expenses in retirement" .
+<http://saffron.insight-centre.org/rdf/term/expenses+in+retirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/guaranteed+income> <http://www.w3.org/2000/01/rdf-schema#label> "guaranteed income" .
+<http://saffron.insight-centre.org/rdf/term/guaranteed+income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/lifetime+income+annuity> <http://www.w3.org/2000/01/rdf-schema#label> "lifetime income annuity" .
+<http://saffron.insight-centre.org/rdf/term/lifetime+income+annuity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/roth+conversion> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/roth+conversion> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/company+stock> .
+<http://saffron.insight-centre.org/rdf/term/roth+conversion> <http://www.w3.org/2000/01/rdf-schema#label> "roth conversion" .
+<http://saffron.insight-centre.org/rdf/term/roth+conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/early+withdrawal> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/income+annuity> .
+<http://saffron.insight-centre.org/rdf/term/early+withdrawal> <http://www.w3.org/2000/01/rdf-schema#label> "early withdrawal" .
+<http://saffron.insight-centre.org/rdf/term/early+withdrawal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/ordinary+income> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/ordinary+income> <http://www.w3.org/2000/01/rdf-schema#label> "ordinary income" .
+<http://saffron.insight-centre.org/rdf/term/ordinary+income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/financial+advice> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/interest+rate> .
+<http://saffron.insight-centre.org/rdf/term/financial+advice> <http://www.w3.org/2000/01/rdf-schema#label> "financial advice" .
+<http://saffron.insight-centre.org/rdf/term/financial+advice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/brokerage+account> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/interest+rate> .
+<http://saffron.insight-centre.org/rdf/term/brokerage+account> <http://www.w3.org/2000/01/rdf-schema#label> "brokerage account" .
+<http://saffron.insight-centre.org/rdf/term/brokerage+account> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/credit+card> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/medicare+advantage+plan> .
+<http://saffron.insight-centre.org/rdf/term/credit+card> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/retirement+income+plan> .
+<http://saffron.insight-centre.org/rdf/term/credit+card> <http://www.w3.org/2000/01/rdf-schema#label> "credit card" .
+<http://saffron.insight-centre.org/rdf/term/credit+card> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/original+ira+owner> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/much+house> .
+<http://saffron.insight-centre.org/rdf/term/original+ira+owner> <http://www.w3.org/2000/01/rdf-schema#label> "original ira owner" .
+<http://saffron.insight-centre.org/rdf/term/original+ira+owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/lump+sum> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/lump+sum> <http://www.w3.org/2000/01/rdf-schema#label> "lump sum" .
+<http://saffron.insight-centre.org/rdf/term/lump+sum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/health+insurance> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/interest+rate> .
+<http://saffron.insight-centre.org/rdf/term/health+insurance> <http://www.w3.org/2000/01/rdf-schema#label> "health insurance" .
+<http://saffron.insight-centre.org/rdf/term/health+insurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/health+care+expense> <http://www.w3.org/2000/01/rdf-schema#label> "health care expense" .
+<http://saffron.insight-centre.org/rdf/term/health+care+expense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/federal+income+tax> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/monthly+benefit> .
+<http://saffron.insight-centre.org/rdf/term/federal+income+tax> <http://www.w3.org/2000/01/rdf-schema#label> "federal income tax" .
+<http://saffron.insight-centre.org/rdf/term/federal+income+tax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/taxable+income> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/taxable+income> <http://www.w3.org/2000/01/rdf-schema#label> "taxable income" .
+<http://saffron.insight-centre.org/rdf/term/taxable+income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/health+care+cost> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/tax+return> .
+<http://saffron.insight-centre.org/rdf/term/health+care+cost> <http://www.w3.org/2000/01/rdf-schema#label> "health care cost" .
+<http://saffron.insight-centre.org/rdf/term/health+care+cost> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/much+house> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/stock+market> .
+<http://saffron.insight-centre.org/rdf/term/much+house> <http://www.w3.org/2000/01/rdf-schema#label> "much house" .
+<http://saffron.insight-centre.org/rdf/term/much+house> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/federal+estate+tax> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/federal+estate+tax> <http://www.w3.org/2000/01/rdf-schema#label> "federal estate tax" .
+<http://saffron.insight-centre.org/rdf/term/federal+estate+tax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/withdrawal+penalty> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/withdrawal+penalty> <http://www.w3.org/2000/01/rdf-schema#label> "withdrawal penalty" .
+<http://saffron.insight-centre.org/rdf/term/withdrawal+penalty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/tax+rate> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/tax+bracket> .
+<http://saffron.insight-centre.org/rdf/term/tax+rate> <http://www.w3.org/2000/01/rdf-schema#label> "tax rate" .
+<http://saffron.insight-centre.org/rdf/term/tax+rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/tax+balance> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/tax+balance> <http://www.w3.org/2000/01/rdf-schema#label> "tax balance" .
+<http://saffron.insight-centre.org/rdf/term/tax+balance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/full+retirement+age> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/bond+etfs> .
+<http://saffron.insight-centre.org/rdf/term/full+retirement+age> <http://www.w3.org/2000/01/rdf-schema#label> "full retirement age" .
+<http://saffron.insight-centre.org/rdf/term/full+retirement+age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/social+security+benefit> <http://www.w3.org/2000/01/rdf-schema#label> "social security benefit" .
+<http://saffron.insight-centre.org/rdf/term/social+security+benefit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/federal+income> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/guaranteed+income> .
+<http://saffron.insight-centre.org/rdf/term/federal+income> <http://www.w3.org/2000/01/rdf-schema#label> "federal income" .
+<http://saffron.insight-centre.org/rdf/term/federal+income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/ira+owner> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/monthly+benefit> .
+<http://saffron.insight-centre.org/rdf/term/ira+owner> <http://www.w3.org/2000/01/rdf-schema#label> "ira owner" .
+<http://saffron.insight-centre.org/rdf/term/ira+owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/tax+return> <http://www.w3.org/2000/01/rdf-schema#label> "tax return" .
+<http://saffron.insight-centre.org/rdf/term/tax+return> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/estate+tax> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/interest+rate> .
+<http://saffron.insight-centre.org/rdf/term/estate+tax> <http://www.w3.org/2000/01/rdf-schema#label> "estate tax" .
+<http://saffron.insight-centre.org/rdf/term/estate+tax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/company+stock> <http://www.w3.org/2000/01/rdf-schema#label> "company stock" .
+<http://saffron.insight-centre.org/rdf/term/company+stock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/retirement+tool> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/retirement+tool> <http://www.w3.org/2000/01/rdf-schema#label> "retirement tool" .
+<http://saffron.insight-centre.org/rdf/term/retirement+tool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/lifetime+income> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/lifetime+income> <http://www.w3.org/2000/01/rdf-schema#label> "lifetime income" .
+<http://saffron.insight-centre.org/rdf/term/lifetime+income> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/retirement+income+plan> <http://saffron.insight-centre.org/ontology#hypernymy> <http://saffron.insight-centre.org/rdf/term/standard+deduction> .
+<http://saffron.insight-centre.org/rdf/term/retirement+income+plan> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/bond+etfs> .
+<http://saffron.insight-centre.org/rdf/term/retirement+income+plan> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/health+care> .
+<http://saffron.insight-centre.org/rdf/term/retirement+income+plan> <http://www.w3.org/2000/01/rdf-schema#label> "retirement income plan" .
+<http://saffron.insight-centre.org/rdf/term/retirement+income+plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/essential+expense> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/medicare+advantage+plan> .
+<http://saffron.insight-centre.org/rdf/term/essential+expense> <http://www.w3.org/2000/01/rdf-schema#label> "essential expense" .
+<http://saffron.insight-centre.org/rdf/term/essential+expense> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/life+insurance> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/bond+ladder> .
+<http://saffron.insight-centre.org/rdf/term/life+insurance> <http://www.w3.org/2000/01/rdf-schema#label> "life insurance" .
+<http://saffron.insight-centre.org/rdf/term/life+insurance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/required+minimum+distribution> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/monthly+benefit> .
+<http://saffron.insight-centre.org/rdf/term/required+minimum+distribution> <http://www.w3.org/2000/01/rdf-schema#label> "required minimum distribution" .
+<http://saffron.insight-centre.org/rdf/term/required+minimum+distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/medicare+advantage+plan> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/tax+bracket> .
+<http://saffron.insight-centre.org/rdf/term/medicare+advantage+plan> <http://www.w3.org/2000/01/rdf-schema#label> "medicare advantage plan" .
+<http://saffron.insight-centre.org/rdf/term/medicare+advantage+plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/financial+advisor> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/income+annuity> .
+<http://saffron.insight-centre.org/rdf/term/financial+advisor> <http://www.w3.org/2000/01/rdf-schema#label> "financial advisor" .
+<http://saffron.insight-centre.org/rdf/term/financial+advisor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/defensive+portfolio> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/rule+of+thumb> .
+<http://saffron.insight-centre.org/rdf/term/defensive+portfolio> <http://www.w3.org/2000/01/rdf-schema#label> "defensive portfolio" .
+<http://saffron.insight-centre.org/rdf/term/defensive+portfolio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/tax+law> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/estate+planning> .
+<http://saffron.insight-centre.org/rdf/term/tax+law> <http://www.w3.org/2000/01/rdf-schema#label> "tax law" .
+<http://saffron.insight-centre.org/rdf/term/tax+law> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/financial+planning> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/lifetime+income+annuity> .
+<http://saffron.insight-centre.org/rdf/term/financial+planning> <http://www.w3.org/2000/01/rdf-schema#label> "financial planning" .
+<http://saffron.insight-centre.org/rdf/term/financial+planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/capital+gain> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/income+annuity> .
+<http://saffron.insight-centre.org/rdf/term/capital+gain> <http://www.w3.org/2000/01/rdf-schema#label> "capital gain" .
+<http://saffron.insight-centre.org/rdf/term/capital+gain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/interest+rate> <http://www.w3.org/2000/01/rdf-schema#label> "interest rate" .
+<http://saffron.insight-centre.org/rdf/term/interest+rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/rule+of+thumb> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/rule+of+thumb> <http://www.w3.org/2000/01/rdf-schema#label> "rule of thumb" .
+<http://saffron.insight-centre.org/rdf/term/rule+of+thumb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/ira+conversion> <http://www.w3.org/2000/01/rdf-schema#label> "ira conversion" .
+<http://saffron.insight-centre.org/rdf/term/ira+conversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/early+withdrawal+penalty> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/monthly+benefit> .
+<http://saffron.insight-centre.org/rdf/term/early+withdrawal+penalty> <http://www.w3.org/2000/01/rdf-schema#label> "early withdrawal penalty" .
+<http://saffron.insight-centre.org/rdf/term/early+withdrawal+penalty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/tax+advisor> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/tax+advisor> <http://www.w3.org/2000/01/rdf-schema#label> "tax advisor" .
+<http://saffron.insight-centre.org/rdf/term/tax+advisor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/exclusion+amount> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/exclusion+amount> <http://www.w3.org/2000/01/rdf-schema#label> "exclusion amount" .
+<http://saffron.insight-centre.org/rdf/term/exclusion+amount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/advantage+plan> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/advantage+plan> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/health+care+expense> .
+<http://saffron.insight-centre.org/rdf/term/advantage+plan> <http://www.w3.org/2000/01/rdf-schema#label> "advantage plan" .
+<http://saffron.insight-centre.org/rdf/term/advantage+plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/income+taxis> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/income+taxis> <http://www.w3.org/2000/01/rdf-schema#label> "income taxis" .
+<http://saffron.insight-centre.org/rdf/term/income+taxis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/retirement+plan> <http://saffron.insight-centre.org/ontology#meronymy> <http://saffron.insight-centre.org/rdf/term/monthly+benefit> .
+<http://saffron.insight-centre.org/rdf/term/retirement+plan> <http://www.w3.org/2000/01/rdf-schema#label> "retirement plan" .
+<http://saffron.insight-centre.org/rdf/term/retirement+plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/bond+mutual+fund> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/bond+mutual+fund> <http://www.w3.org/2000/01/rdf-schema#label> "bond mutual fund" .
+<http://saffron.insight-centre.org/rdf/term/bond+mutual+fund> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/roth+account> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/roth+account> <http://www.w3.org/2000/01/rdf-schema#label> "roth account" .
+<http://saffron.insight-centre.org/rdf/term/roth+account> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://saffron.insight-centre.org/rdf/term/term+capital> <http://saffron.insight-centre.org/ontology#synonymy> <http://saffron.insight-centre.org/rdf/term/social+security+benefit> .
+<http://saffron.insight-centre.org/rdf/term/term+capital> <http://www.w3.org/2000/01/rdf-schema#label> "term capital" .
+<http://saffron.insight-centre.org/rdf/term/term+capital> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
