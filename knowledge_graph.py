@@ -184,27 +184,6 @@ class KnowledgeGraph(object):
 
         pattern = PATH_PATTERN[pattern_id]
         paths = []
-        '''
-        if pattern_id == 1:
-            aids_u = set(_get(USER, uid, RECOMMENDED))  # USER->RECOMMENDED->ARTICLE
-            aids_a = set(_get(ARTICLE, aid, RESPONSE))  # ARTICLE->HAS->WORD
-            
-            intersect_nodes = wids_u.intersection(wids_a)
-            paths = [(uid, x, aid) for x in intersect_nodes]
-        if pattern_id == 1:  # OK
-            wids_u = set(_get(USER, uid, RESPONSE))  # USER->RESPONSE->ARTICLE
-            wids_a = set(_get(ARTICLE, aid, WITHIN))  # ARTICLE->HAS->WORD
-            intersect_nodes = wids_u.intersection(wids_a)
-            paths = [(uid, x, aid) for x in intersect_nodes]
-        '''
-        '''
-        if pattern_id == 1:
-            aids_u = set(_get(USER, uid, RECOMMENDED))  # USER->RECOMMENDED->ARTICLE
-            aids_a = set(_get(ARTICLE, aid, RESPONSE))  # ARTICLE->RESPONSE->USER
-            intersect_nodes = aids_u.intersection(aids_a)
-            paths = [(uid, x, aid) for x in intersect_nodes]
-        elif pattern_id in [11, 12, 13, 14, 15, 16, 17, 19, 20]:
-        '''
         if pattern_id in [11, 13, 14, 15, 16, 17, 19, 20]:
             aids_u = set(_get(USER, uid, RECOMMENDED))  # USER->RECOMMENDED->ARTICLE
             aids_u = aids_u.difference([aid])  # exclude target product
@@ -238,7 +217,6 @@ def check_test_path(dataset_str, kg):
     for uid in test_user_products:
         for pid in test_user_products[uid]:
             count = 0
-            #for pattern_id in [1, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]:
             for pattern_id in [11, 13, 14, 15, 16, 17, 18, 19, 20]:
                 tmp_path = kg.heuristic_search(uid, pid, pattern_id)
                 count += len(tmp_path)

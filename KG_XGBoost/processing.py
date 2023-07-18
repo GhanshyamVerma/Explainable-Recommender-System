@@ -36,13 +36,13 @@ class DataPreprocessing:
         
         self.df_train_test = pd.concat([self.train_data,self.test_data])
         self.tcm_clicks_count_df = self.df_train_test[self.df_train_test['response'] == 1].groupby('article_id').size().reset_index(name='tcm_click_count').sort_values( ['tcm_click_count'],ascending=False)
-        self.tcm_clicks_count_df['article_popularity'] = self.tcm_clicks_count_df['tcm_click_count'] / self.tcm_clicks_count_df['tcm_click_count'].sum()
+        self.tcm_clicks_count_df['click_frequency'] = self.tcm_clicks_count_df['tcm_click_count'] / self.tcm_clicks_count_df['tcm_click_count'].sum()
         self.articles_merged_df = pd.merge(self.df_articles, self.tcm_clicks_count_df, on=["article_id"])
         
-        self.articles_merged_df = self.articles_merged_df[~self.articles_merged_df['article_id'].isin(['tcm:526-12173','tcm:526-161967','tcm:526-387709','tcm:526-635549','tcm:526-766928'])]
+        self.articles_merged_df = self.articles_merged_df[~self.articles_merged_df['article_id'].isin([7391, 1337, 2374, 7355, 2394])]
         self.articles_merged_df['article_length'] = self.articles_merged_df['all_text'].str.len()
         self.df_articles = self.articles_merged_df
-        self.df_articles = self.df_articles[['article_id','article_popularity','all_text','article_length']]
+        self.df_articles = self.df_articles[['article_id','click_frequency','all_text','article_length']]
         
         # Users
         self.df_users = pd.read_csv(dataset_dict['users'])
@@ -197,7 +197,7 @@ class DataPreprocessing:
         Data pre-processing pipeline defined using sklearn.pipeline.Pipeline.
         """
         text_features = ['all_text']
-        numeric_features = ['f_3','f_9','f_10','f_7','f_11','article_length','article_popularity']
+        numeric_features = ['f_3','f_9','f_10','f_7','f_11','article_length','click_frequency']
         categorical_features = ['xd','f_2','f_4', 'f_5', 'f_6','f_8','f_12']
 
         st_emb_Transformer = FunctionTransformer(self._st_emb_vector)
@@ -273,7 +273,7 @@ class DataPreprocessing:
         usr_columns = ['f_3','f_9','f_10','f_7','f_11','f_2_0','f_2_1','f_4_0','f_4_1',
                        'f_5_0','f_5_1','f_6_0','f_6_1','f_8_0','f_8_1','f_12_Aggressive Growth','f_12_Balanced','f_12_Conservative',
                        'f_12_Growth','f_12_Growth with Income','f_12_Moderate','f_12_Moderate with Income','f_12_Most Aggressive','f_12_None','f_12_Short Term']
-        art_columns = ['article_length','article_popularity']
+        art_columns = ['article_length','click_frequency']
 
         featur_cols = []
         

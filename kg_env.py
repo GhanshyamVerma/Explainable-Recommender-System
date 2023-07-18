@@ -57,8 +57,6 @@ class BatchKGEnvironment(object):
 
         # Compute path patterns
         self.patterns = []
-        #for pattern_id in [1, 11, 12, 13, 14, 15, 16, 17, 18]:
-        #for pattern_id in [1, 11, 12, 14, 15, 16, 17, 18, 19, 20]:
         for pattern_id in [11, 14, 15, 16, 17, 18, 19, 20]:
             pattern = PATH_PATTERN[pattern_id]
             pattern = [SELF_LOOP] + [v[0] for v in pattern[1:]]  # pattern contains all relations

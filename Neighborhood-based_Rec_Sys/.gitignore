@@ -1,0 +1,6 @@
+*.pyc
+*.json
+*.pkl
+**/__pycache__
+/recommender
+/recommenders

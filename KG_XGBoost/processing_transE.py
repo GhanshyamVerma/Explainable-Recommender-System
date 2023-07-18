@@ -40,7 +40,7 @@ class DataPreprocessing:
         self.tcm_clicks_count_df['article_popularity'] = self.tcm_clicks_count_df['tcm_click_count'] / self.tcm_clicks_count_df['tcm_click_count'].sum()
         self.articles_merged_df = pd.merge(self.df_articles, self.tcm_clicks_count_df, on=["article_id"])
         
-        self.articles_merged_df = self.articles_merged_df[~self.articles_merged_df['article_id'].isin(['tcm:526-12173','tcm:526-161967','tcm:526-387709','tcm:526-635549','tcm:526-766928'])]
+        self.articles_merged_df = self.articles_merged_df[~self.articles_merged_df['article_id'].isin([7391, 1337, 2374, 7355, 2394])]
         self.articles_merged_df['article_length'] = self.articles_merged_df['all_text'].str.len()
         self.df_articles = self.articles_merged_df
         self.df_articles = self.df_articles[['article_id','article_popularity','all_text','article_length']]
