@@ -32,7 +32,7 @@ class DataPreprocessing:
         
         # Articles 
         self.df_articles = pd.read_csv(dataset_dict['articles'])
-        self.df_articles['all_text'] = pd.Series(self.df_articles[['headline','teaser','text', 'topic', 'product', 'vstopic', 'vsproduct']].fillna('').values.tolist()).str.join(' ')
+        self.df_articles['all_text'] = pd.Series(self.df_articles[['headline','teaser','text', 'topic_des_1', 'product_des_1', 'topic_des_2', 'product_des_2']].fillna('').values.tolist()).str.join(' ')
         self.df_articles['all_text'] = self.df_articles['all_text'].apply(self.clean_text)
 
         self.df_train_test = pd.concat([self.train_data,self.test_data])

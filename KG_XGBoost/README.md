@@ -142,7 +142,7 @@ Multiple Ranking models like XGBoost, LightGBM and CatBoost were implemented on 
 
 #### Data Sampling
 
-The train and test dataset contains large amount of customer and article interaction data through clicks. Thus, the model tarin time was significantly long. To address the issue mulitple samples were drawn using different strategies to train the models. The sampling technique mentioned below selectes the top 100 customers with highest number of clicks.
+The train and test dataset contains large amount of subscribers and article interaction data through clicks. Thus, the model tarin time was significantly long. To address the issue mulitple samples were drawn using different strategies to train the models. The sampling technique mentioned below selectes the top 100 subscribers with highest number of clicks.
 
 ```bash
 dv_train = pd.read_csv('recsys_data/train.csv')
