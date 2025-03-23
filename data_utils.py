@@ -68,7 +68,7 @@ class ChallengeDataset(object):
             arr = line.split('\t')
             user_idx = int(arr[0])
             article_idx = int(arr[1])
-            word_indices = [int(i) for i in arr[2].lstrip().split(' ')]  # list of word idx
+            word_indices = [int(i) for i in arr[2].lstrip().split(' ')]  # list of word index
             text_data.append((user_idx, article_idx, word_indices))
             article_distrib[article_idx] += 1
             for wi in word_indices:
@@ -97,7 +97,7 @@ class ChallengeDataset(object):
         )
         for name in article_relations:
             # We save information of entity_tail (et) in each relation.
-            # Note that `data` variable saves list of entity_tail indices.
+            # Note that `data` variable saves the list of entity_tail indices.
             # The i-th record of `data` variable is the entity_tail idx (i.e. product_idx=i).
             # So for each product-relation, there are always |products| records.
             relation = edict(
