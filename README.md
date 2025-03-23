@@ -1,5 +1,5 @@
 # Knowledge Graph Driven Reinforcement Learning Based Recommender System
-This approach mainly has 5 modules, preprocessing and kg creation, generating kg embedding, training reinforcement learning agent, recommending items for customers, and path generation and evaluation.
+This approach mainly has five modules, preprocessing and kg creation, generating kg embedding, training reinforcement learning agent, recommending items for customers, and path generation and evaluation.
 
 ## How to run the code 
 
@@ -22,5 +22,5 @@ run evaluation.ipynb
 - Python >= 3.6
 - PyTorch = 1.0
 
-  Install Python packages using provided requirements.txt file.
+  Install Python packages using the provided requirements.txt file.
 
