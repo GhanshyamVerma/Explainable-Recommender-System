@@ -34,7 +34,7 @@ class KnowledgeEmbedding(nn.Module):
             embed = self._entity_embedding(self.entities[e].vocab_size)
             setattr(self, e, embed)
 
-        # Initialize relation embeddings and relation biases.
+        # Initialize relation embeddings and relation biases
         self.relations = edict(
             # this might be has some problem
             response=edict(
