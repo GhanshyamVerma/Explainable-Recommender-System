@@ -1,7 +1,7 @@
 
-# KG Driven XGBoost based Recomendation System
-Recommendatiion System is built using learning to rank approach. Popular boosting
-models like XGBoostRanker, LightGBMRanker, CatBoostRanker trained on Recsys Challenge data incorporating user article, features, KG embeddings,SentenceTransformer embeddings.
+# KG Driven XGBoost-based Recommendation System
+This Recommendation System is built using the learning-to-rank approach. Popular boosting
+models like XGBoostRanker, LightGBMRanker, and CatBoostRanker trained on Recsys Challenge data incorporating user articles, features, KG embeddings ,SentenceTransformer embeddings.
 
 
 ## Table of contents
@@ -37,7 +37,7 @@ ml_metrics is the Python implementation of Metrics implementations a library of 
  cd Metrics/Python
  python setup.py install
 ``` 
-recmetrics - A python library of evalulation metrics and diagnostic tools for recommender systems.
+recmetrics - A Python library of evaluation metrics and diagnostic tools for recommender systems.
 ```bash
  pip install recmetrics
 ```
@@ -72,7 +72,7 @@ recmetrics - A python library of evalulation metrics and diagnostic tools for re
 
 ### Knowledge Graph Embeddings
 
-Saffron was used to generate knowledge graph from unstructred data (article content). TucKER was used on KG .nt files to generate the embeddings.
+Saffron was used to generate a knowledge graph from unstructured data (article content). TucKER was used on KG .nt files to generate the embeddings.
 
 Go to the project directory
 
@@ -86,7 +86,7 @@ Split Knowledge Graph .nt file into train,test and validation to train TucKER .
   python process_kg.py --kg_path ../KG_nt/KG_dep_parsing_100terms.nt --out_path data/KG_dep_parsing_100terms
 
 ```
-TuckER module needs some aditional code to save the kg embeddings in a text file . Below code is needed to be apended at the end of  train_and_eval() function definition which can be found inside main.py .
+TuckER module needs some additional code to save the kg embeddings in a text file. The below code needs to be appended at the end of  train_and_eval() function definition which can be found inside main.py.
 
 ```bash
 data_idxs = self.get_data_idxs(d.data)
@@ -134,15 +134,15 @@ Run TuckER
 ```
 ### TransE Embeddings
 
-The `TransE_embedding_creation.ipynb` file contains the steps for generating TransE embeddings created from structured Knowledge Graphs. The TransE embedding pickle file is created by running the `KG_RL_Rec_Sys.ipynb` file in root directory of the repository. The map files containing the maping of each word, topic, product, etc. with its corresponding indices is generated from the `processing.ipynb` in the root direcotory of the repository. Using the pickle file containing the TransE embeddings and the map files with the mapping for each embedding, a combined transE embedding file can be created. To avoid duplicates, the combined embedding is created by adding all the embeddings for words then other unique products, product tags, topic and topic tags are added.  
+The `TransE_embedding_creation.ipynb` file contains the steps for generating TransE embeddings created from structured Knowledge Graphs. The TransE embedding pickle file is created by running the `KG_RL_Rec_Sys.ipynb` file in the root directory of the repository. The map files containing the mapping of each word, topic, product, etc. with its corresponding indices are generated from the `processing.ipynb` in the root directory of the repository. Using the pickle file containing the TransE embeddings and the map files with the mapping for each embedding, a combined transE embedding file can be created. To avoid duplicates, the combined embedding is created by adding all the embeddings for words then other unique products, product tags, and topic and topic tags are added.  
 
 ### XGBoost_model
 
-Multiple Ranking models like XGBoost, LightGBM and CatBoost were implemented on RecSys data incorporating KG and sentence tarnsformer embeddings. XGBoost_model.ipynb, LightGBM_model.ipynb and CatBoost_model.ipynb follow same code structure. Here, XGBoost_model.ipynb code sections are explained in details.
+Multiple Ranking models like XGBoost, LightGBM, and CatBoost were implemented on RecSys data incorporating KG and sentence transformer embeddings. XGBoost_model.ipynb, LightGBM_model.ipynb and CatBoost_model.ipynb follow same code structure. Here, XGBoost_model.ipynb code sections are explained in detail.
 
 #### Data Sampling
 
-The train and test dataset contains large amount of subscribers and article interaction data through clicks. Thus, the model tarin time was significantly long. To address the issue mulitple samples were drawn using different strategies to train the models. The sampling technique mentioned below selectes the top 100 subscribers with highest number of clicks.
+The train and test dataset contains a large amount of subscribers and article interaction data through clicks. Thus, the model train time was significantly long. To address the issue multiple samples were drawn using different strategies to train the models. The sampling technique mentioned below selects the top 100 subscribers with the highest number of clicks.
 
 ```bash
 dv_train = pd.read_csv('recsys_data/train.csv')
@@ -156,7 +156,7 @@ dv_test = pd.merge(dv_test,df_ips,on='ip')
 ```
 #### Data Preprocessing
 
-From the processing module, the customed DataPreprocessing class is used to perform all the required data preprocessing operations. A pipeline is created using sklearn.pipeline.Pipeline to process and merge KG embeddings and Sentence Tarnsformer embeddings to generate the processed training test file for model training.
+From the processing module, the customed DataPreprocessing class is used to perform all the required data preprocessing operations. A pipeline is created using sklearn.pipeline.Pipeline to process and merge KG embeddings and Sentence Transformer embeddings to generate the processed training test file for model training.
 
 ```bash
 from processing import DataPreprocessing
@@ -189,7 +189,7 @@ model.fit(X_train, y_train, group=groups_train, eval_set=[(X_train, y_train),(X_
 
 #### Hyperparameter Tuning
 
-Optuna is used to find the optimum hyperparameter for model training. Optuna is a software framework for automating the optimization process of these hyperparameters. It automatically finds optimal hyperparameter values by making use of different samplers such as grid search, random, bayesian, and evolutionary algorithms. For the project,MAP@10 metric is maximised to find the optimised hyperparameters.
+Optuna is used to find the optimum hyperparameter for model training. Optuna is a software framework for automating the optimization process of these hyperparameters. It automatically finds optimal hyperparameter values by making use of different samplers such as grid search, random, bayesian, and evolutionary algorithms. For the project, the MAP@10 metric is maximized to find the optimized hyperparameters.
 
 ```bash
 
@@ -213,7 +213,7 @@ tuning_params = {
 
 #### Model Evaluation
 
-For evalutaing the predicted article the customed class LtrPrediction is used from the prediction module.
+For evaluating the predicted article the customed class LtrPrediction is used from the prediction module.
 
 ```bash
 from prediction import LtrPrediction
