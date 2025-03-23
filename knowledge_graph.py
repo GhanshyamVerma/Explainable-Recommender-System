@@ -41,7 +41,7 @@ class KnowledgeGraph(object):
 
     def _load_text(self, dataset, word_tfidf_threshold=0.1, word_freq_threshold=5000):
         print('Load text...')
-        # (1) Filter words by both tfidf and frequency.
+        # (1) Filter words by both tfidf and frequency
         vocab = dataset.word.vocab
         text = [d[2] for d in dataset.text.data]
         text_tfidf = compute_tfidf_fast(vocab, text)
