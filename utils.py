@@ -11,7 +11,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 import torch
 
 
-# Dataset names.
+# Dataset names
 
 CHALLENGE = 'challenge'
 
@@ -20,12 +20,12 @@ DATASET_DIR = {
     CHALLENGE: './Dataset/Challenge_Dataset'
 }
 
-# Model result directories.
+# Model result directories
 TMP_DIR = {
     CHALLENGE: './tmp/Challenge_Dataset'
 }
 
-# Label files.
+# Label files
 LABELS = {
     CHALLENGE: (TMP_DIR[CHALLENGE] + '/train_label.pkl', TMP_DIR[CHALLENGE]+'/test_label.pkl')
 }
