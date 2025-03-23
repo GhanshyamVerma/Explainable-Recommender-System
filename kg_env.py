@@ -50,7 +50,7 @@ class BatchKGEnvironment(object):
         self.state_gen = KGState(self.embed_size, history_len=state_history)
         self.state_dim = self.state_gen.dim
 
-        # Compute user-article scores for scaling.
+        # Compute user-article scores for scaling
         #u_p_scores = np.dot(self.embeds[USER] + self.embeds[RESPONSE][0], self.embeds[ARTICLE].T)
         u_p_scores = np.dot(self.embeds[USER] + self.embeds[RECOMMENDED][0], self.embeds[ARTICLE].T)
         self.u_p_scales = np.max(u_p_scores, axis=1)
@@ -69,7 +69,7 @@ class BatchKGEnvironment(object):
         self._batch_curr_actions = None  # save current valid actions
         self._batch_curr_state = None
         self._batch_curr_reward = None
-        # Here only use 1 'done' indicator, since all paths have same length and will finish at the same time.
+        # Here only use 1 'done' indicator, since all paths have the same length and will finish at the same time.
         self._done = False
 
     def _has_pattern(self, path):
@@ -88,7 +88,7 @@ class BatchKGEnvironment(object):
         if done:
             return actions
 
-        # (2) Get all possible edges from original knowledge graph.
+        # (2) Get all possible edges from the original knowledge graph.
         # [CAVEAT] Must remove visited nodes!
         relations_nodes = self.kg(curr_node_type, curr_node_id)
         candidate_acts = []  # list of tuples of (relation, node_type, node_id)
@@ -100,7 +100,7 @@ class BatchKGEnvironment(object):
             next_node_ids = [n for n in next_node_ids if (next_node_type, n) not in visited_nodes]  # filter
             candidate_acts.extend(zip([r] * len(next_node_ids), next_node_ids))
 
-        # (3) If candidate action set is empty, only return self-loop action.
+        # (3) If the candidate action set is empty, only return the self-loop action.
         if len(candidate_acts) == 0:
             return actions
 
